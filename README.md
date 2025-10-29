@@ -2,7 +2,7 @@
 
 ### 📄프로젝트 소개
 ---
-&ensp;사진을 특정 스타일의 느낌으로 표현하는 Style Transfer 기술 탐구 및 다양한 Style Transfer 모델의 결과물 비교.
+&ensp;사진을 특정 스타일의 느낌으로 표현하는 **Style Transfer** 기술 탐구 및 다양한 Style Transfer 모델의 결과물 비교.
 </br></br></br></br>
 
 ### 🧠개요
