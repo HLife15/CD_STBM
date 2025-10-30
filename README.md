@@ -29,7 +29,7 @@
 &ensp;Style Transfer에 대해 조사하면서 매우 다양한 모델들이 배포되어 있었다. 그래서 내 목표인 **'실제 인물을 내 그림체로 그려주는 것'** 에 가까운 모델이 있는 지 알아보기 위해 배포되어 있는 모델들을 비교해보고자 한다.
 </br></br></br></br>
 
-#### 1. InstantStyle
+#### 1. [InstantStyle](https://huggingface.co/spaces/InstantX/InstantStyle)
 ---
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="45%"/>
@@ -41,7 +41,7 @@
 텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
 </br></br>
 
-#### 2. Flux.1-dev-IP-Adapter
+#### 2. [Flux.1-dev-IP-Adapter](https://huggingface.co/spaces/InstantX/flux-IP-adapter)
 ---
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="45%"/>
@@ -53,7 +53,7 @@
 텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
 </br></br>
 
-#### 3. FlowEdit
+#### 3. [FlowEdit](https://huggingface.co/spaces/fallenshock/FlowEdit)
 ---
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="45%"/>
@@ -65,7 +65,7 @@
 텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
 </br></br>
 
-#### 4. OminiControl_Art
+#### 4. [OminiControl_Art](https://huggingface.co/spaces/Yuanshi/OminiControl_Art)
 ---
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="18%"/>
@@ -79,7 +79,7 @@
 배포일 : 2025.04.09.</br>
 </br></br>
 
-#### 5. InstantCharacter
+#### 5. [InstantCharacter](https://huggingface.co/spaces/InstantX/InstantCharacter)
 ---
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="22%"/>
@@ -93,7 +93,7 @@
 텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
 </br></br>
 
-#### 6. USO FLUX
+#### 6. [USO FLUX](https://huggingface.co/spaces/bytedance-research/USO)
 ---
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="30%"/>
@@ -103,5 +103,58 @@
 </br>
 설명 : 스타일과 주제 두 가지를 한 번에 제어할 수 있는 이미지 생성 모델. 인물(위 좌측 사진)을 유지하면서 스타일(위 중앙 사진)을 입혀주는 것.  </br>
 배포일 : 2025.08.28.</br>
+텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
+</br></br>
+
+#### 7. [Omni Zero](https://huggingface.co/spaces/okaris/omni-zero)
+---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/6d59e9ec-d339-4fc1-abf5-00388337be71" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/4175dfcf-cb59-4a72-9c65-04bda48b4a12" width="30%"/>
+</p>
+</br>
+설명 : 얼굴 또는 인물 중심의 이미지 (위 좌측 사진)를 즉시 스타일(위 중앙 사진)화 할 수 있는 파이프라인  </br>
+배포일 : 2024.05.11.</br>
+텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
+</br></br>
+
+#### 8. [DreamO](https://huggingface.co/spaces/okaris/omni-zero)
+---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/6d59e9ec-d339-4fc1-abf5-00388337be71" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/448fcc2b-2517-4c72-b1d7-8624e3dccfaf" width="30%"/>
+</p>
+</br>
+설명 : 이미지 생성 및 편집 분야에서 스타일, 주제, 아이덴티티, 의상 등 다양한 조건을 한 번에 통합해서 제어할 수 있는 프레임워크  </br>
+배포일 : 2025.05.08.</br>
+텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
+</br></br>
+
+#### 9. Neural Style Transfer  ([georgescutelnicu](https://huggingface.co/spaces/georgescutelnicu/neural-style-transfer) / [astro189](https://huggingface.co/spaces/astro189/Neural_Style_Transfer) / [optimization-hashira](https://huggingface.co/spaces/optimization-hashira/neural-style-transfer))
+---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="18%"/>
+  <img src="https://github.com/user-attachments/assets/6d59e9ec-d339-4fc1-abf5-00388337be71" width="18%"/>
+  <img src="https://github.com/user-attachments/assets/1bc7c40e-70ad-4304-b735-ea0e57579470" width="18%"/>
+  <img src="https://github.com/user-attachments/assets/ad86f715-4a02-41eb-bdab-ef2becdc6280" width="18%"/>
+  <img src="https://github.com/user-attachments/assets/fe16b17f-39bf-4971-87db-3d8dc80573f2" width="18%"/>
+</p>
+</br>
+설명 : 한 이미지의 '스타일 (위 좌측 두번째 사진)'을 다른 이미지의 '내용 (위 좌측 사진)'에 입히는 기술 </br>
+배포일 : 2023.01.14. (georgescutelnicu), 2023.05.16. (astro189), 2024.10.16. (optimization-hashira)</br>
+</br></br>
+
+#### 10. [Simple Style Transfer](https://huggingface.co/spaces/1plus1/Simple-Style_Transfer)
+---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/6d59e9ec-d339-4fc1-abf5-00388337be71" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/a0167a7b-80e4-4c5b-b5a4-add0ef1aa0ce" width="30%"/>
+</p>
+</br>
+설명 : 두 이미지를 입력 받아 내용 이미지 (위 좌측 사진)의 구조, 형태는 유지하면서 스타일 이미지 (위 중앙 사진)의 색감, 질감, 붓 터치 분위기 등을 입히는 Style Transfer 도구  </br>
+배포일 : 2024.12.25.</br>
 텍스트 프롬프트 : A bespectacled boy smiling with a wine glass on the ocean view veranda
 </br></br>
