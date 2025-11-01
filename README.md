@@ -239,4 +239,17 @@
 
 ### ✅결론
 ---
+&ensp;이번 프로젝트의 목적은 **실제 인물의 사진을 특정 그림체로 변환하는 데 가장 효과적인 Style Transfer 모델을 탐색**하는 것이다. 이를 위해 Hugging Face Spaces에 공개된 여러 Style Transfer 관련 모델을 벤치마킹하고, 그 결과물을 비교·분석하였다. 그럴듯한 결과물을 생성된 경우도 있었지만, 예상과 달리 아쉬운 퀄리티의 결과물도 다수 생성되었다.
+
+&ensp;분석 결과, **FLUX Style Shaping**을 통해 프로젝트의 목적에 가장 부합하는 결과물을 생성할 수 있었다.
+</br></br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0e2ff06a-4b20-4c50-9a4f-4fb6a09e5115" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/1d20369f-f27d-4305-b6bb-2bab5f05b2c7" width="30%"/>
+  <img src="https://github.com/user-attachments/assets/53dc5e2c-8114-492b-9243-0c744de3d285" width="30%"/>
+</p>
+</br></br>
+
+&ensp;물론 이 모델도 실제 인물을 특정 그림체로 그려냈다고 보기엔 애매하다. 정확하게 설명하자면, 내용 이미지의 인물의 자세와 비중이 큰 사물들을 인식해 이를 스타일 이미지의 그림체와 색감으로 그려낸 것이다. 하지만 그럼에도 이 모델이 다른 모델들과의 큰 차이점이 있다면 바로 **스타일 이미지의 특징을 거의 완벽하게 반영한 결과물을 생성**해냈다는 것이다. 대부분의 다른 모델들은 스타일 이미지의 특징을 거의 반영하지 못했지만, 이 모델은 마치 스타일 이미지의 캐릭터가 내용 이미지 인물의 포즈를 따라하는 듯한 이미지를 생성해냈다.</br></br>
+&ensp;향후 이 FLUX Style Shaping 모델의 생성 원리를 분석하다 보면 내가 구현하지 못했던 '실제 인물 사진을 내 그림체로 변환'해주는 모델을 만들 수 있을 것이라 기대한다. 
 
